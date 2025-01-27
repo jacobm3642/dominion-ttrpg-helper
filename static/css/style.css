@@ -1,0 +1,40 @@
+navbar {
+  background-color: lightblue;
+}
+
+button {
+  transition-duration: 0.4s;
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+  width: auto;
+}
+
+button:hover {
+  background-color: black;
+  color: white;
+}
+
+.char_card {
+  display: flexbox;
+  width: max-content;
+}
+
+.card:hover{
+  transform: scale(1.05);
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.right {
+  float: right;
+  text-align: right;
+}
+
+.card_stats {
+  margin-left: 4rem;
+}
