@@ -195,7 +195,7 @@ class Entity {
     } else {
       console.error(`Invalid stat name: ${stat}`);
     }
-    entity.up()
+    this.up()
   }
 
   get_cads() {
